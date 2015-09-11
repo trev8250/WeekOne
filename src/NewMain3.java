@@ -7,7 +7,7 @@ public class NewMain3 {
     
     public static void main(String[] args) {
         SketchPadWindow win = new SketchPadWindow(600,400);
-       Pen p = new RainbowPen(win);
+       Pen p = new WigglePen(win);
        p.setWidth(10);
        
       int size = 100;
